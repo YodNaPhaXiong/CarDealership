@@ -1,0 +1,14 @@
+title Tracking Loaned Vehicle
+
+UI -> Controller:showLoanedVehicles(dealerID)
+Controller -> VehicleTrackingService: showLoanedVehicles(dealerID)
+VehicleTrackingService -> VehicleRepository: showListofVehicles()
+
+VehicleRepository ->VehicleRepository: findBy(status = onLoan)
+VehicleRepository --> VehicleTrackingService: result
+VehicleTrackingService --> Controller: result
+Controller --> UI: result 
+
+
+
+

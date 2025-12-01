@@ -1,0 +1,25 @@
+[ {
+  "manufacturer" : "Ford",
+  "model" : "Explorer",
+  "acquisitionDate" : 1515354694451,
+  "price" : 20123.0,
+  "vehicleType" : "SUV",
+  "dealerId" : "12513",
+  "vehicleId" : "48934j"
+}, {
+  "manufacturer" : "Tesla",
+  "model" : "Model 3",
+  "acquisitionDate" : 1515354694451,
+  "price" : 50444.0,
+  "vehicleType" : "SEDAN",
+  "dealerId" : "12513",
+  "vehicleId" : "83883"
+}, {
+  "manufacturer" : "Chevy",
+  "model" : "Silverado",
+  "acquisitionDate" : 1515354694451,
+  "price" : 70444.0,
+  "vehicleType" : "PICK_UP",
+  "dealerId" : "12513",
+  "vehicleId" : "89343883"
+} ]

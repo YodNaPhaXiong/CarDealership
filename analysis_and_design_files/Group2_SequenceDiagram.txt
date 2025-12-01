@@ -1,0 +1,18 @@
+title Car Dealership
+
+
+Client->Tracking Server:addNewVehicle(vehicle)
+Tracking Server -> Dealer: addNewVehicle(vehicle)
+Dealer -> Tracking Server: isAcceptingNewVehicles 
+Tracking Server --> Tracking Server: returns 
+Tracking Server -> Vehicle List: vehicleList.add(vehicle)
+Vehicle List --> Tracking Server: returns 
+space
+Client->Tracking Server: addNewVehicle(vehicle)
+Tracking Server -> Dealer: addNewVehicle (vehicle)
+Dealer -> Tracking Server: no
+Tracking Server --> Tracking Server: returns
+
+
+
+//Website I create this on: https://sequencediagram.org/ 

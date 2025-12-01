@@ -1,0 +1,25 @@
+Questions (put your Inital after your question)
+=========
+- Do we have to keep track of max capsicity for each dealer for enable and disable? - YX
+Answer: No, the enablement/disablement will be done by the user, you don’t have to keep track of the lot capactities.
+
+- How do we contribute as a group on www.websequencediagrams.com, so that we all could work together at the same time? -JD
+Answer: Doing it at the same time is tricky, but you can store the text from the site as a text file an put it into GitHub.  That way the next person to work on it can copy paste it into the website.
+
+-- Requrements specify that vehicles be associated with Dealers. 
+	1. Where are these dealers coming from? (MJ)
+Answer: They are existing dealerships.  There is no address associated with it, but you don’t need it anyway.  You might consider how a new dealership can be added.
+
+	2. How we assume all dealer Ids in the JSON file are valid? (MJ)
+Answer: Yes, you can assume they are valid, if it is not one you have seen before, assume that it is a new dealership.
+
+	3. Is there a separate dealer database/repository we can look-up dealers?  (MJ)
+Answer: No, not at this time., we are focusing on tracking the vehicles and not the dealerships.
+
+-- Requirements mention that "Admins" can use tracking service to record vehicles arriving at Dealers
+	1. Should we assume these Admins already exist? (MJ)
+Answer: The “admins” are the users of the software.  They don’t need to be tracked by the software.
+
+	2. Do we need to create Users and handle user access and security?  (MJ)
+Answer: It is not listed in the requirements, so you don’t have to, but you are welcome to if you want.
+
